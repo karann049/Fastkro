@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "499219248127",
+    "project_id": "fastkro-5e2a5",
+    "storage_bucket": "fastkro-5e2a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499219248127:android:c3ba007c4affb2f5eb2dca",
+        "android_client_info": {
+          "package_name": "com.fastkro.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499219248127-keg4c12pg9p0p5hjaq15946pnaoko6c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTtCu0EeGIC1p3nJOyPgS6UlS3RMaWe_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499219248127-keg4c12pg9p0p5hjaq15946pnaoko6c5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "499219248127-ke2fv5fv4ajmlhll37env35ibf2l7j1c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

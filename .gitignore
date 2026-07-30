@@ -1,0 +1,17 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+
+# Android
+android/.gradle/
+android/local.properties
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
