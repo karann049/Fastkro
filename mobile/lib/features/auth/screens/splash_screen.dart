@@ -14,62 +14,41 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    Future.delayed(const Duration(seconds: 3), () {
+    Future.delayed(const Duration(seconds: 2), () {
+
       Navigator.pushReplacement(
-  context,
-  MaterialPageRoute(
-    builder: (_) => const LoginScreen(),
-  ),
-);
-      // Next screen par jayenge
+        context,
+        MaterialPageRoute(
+          builder: (_) => const LoginScreen(),
+        ),
+      );
+
     });
+
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.green,
+
+    return const Scaffold(
+
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
 
-            Icon(
-              Icons.store,
-              size: 100,
-              color: Colors.white,
-            ),
+        child: Text(
 
-            SizedBox(height: 20),
+          "Fastkro",
 
-            Text(
-              "Fastkro",
-              style: TextStyle(
-                fontSize: 34,
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
+          style: TextStyle(
+            fontSize: 35,
+            fontWeight: FontWeight.bold,
+          ),
 
-            SizedBox(height: 10),
-
-            Text(
-              "Everything Your Village Needs",
-              style: TextStyle(
-                fontSize: 18,
-                color: Colors.white70,
-              ),
-            ),
-
-            SizedBox(height: 40),
-
-            CircularProgressIndicator(
-              color: Colors.white,
-            )
-
-          ],
         ),
+
       ),
+
     );
+
   }
+
 }
